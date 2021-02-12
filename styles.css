@@ -47,17 +47,68 @@ li:hover {
 
 .resourcestext {
   text-align: center;
-  margin-top: 45px;
-  margin-bottom: 100px;
+  margin-top: 65px;
+  font-size: 26px;
+  margin-bottom: 18px;
 }
 
 .resources {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 100px;
 }
 
 .resource {
   border: solid 1px black;
-  padding: 40px 100px;
+  width: 370px;
+  height: 395px;
+  margin-top: 45px;
+}
+
+.one {
+  background: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.644)),
+    url(cardio.jpeg);
+  background-size: 177%;
+  transition: all 550ms cubic-bezier(0.65, 0.02, 0.36, 1.02);
+  background-position-x: 0px;
+}
+
+.two {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(weightlifting.jpg);
+  background-size: 107%;
+  transition: all 550ms cubic-bezier(0.65, 0.02, 0.36, 1.02);
+}
+
+.resourcesmaintext {
+  color: white;
+  text-align: center;
+  font-weight: 200;
+  padding-top: 105px;
+  margin-bottom: 0px;
+  font-size: 27px;
+  text-shadow: -2px 3px 4px black;
+}
+
+.resourcestextsub {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  margin: 0;
+  font-weight: 100;
+  padding-top: 13px;
+}
+
+.one:hover {
+  transition: all 550ms cubic-bezier(0.65, 0.02, 0.36, 1.02);
+  background-size: 190%;
+  background-position-x: -20px;
+}
+
+.two:hover {
+  transition: all 550ms cubic-bezier(0.65, 0.02, 0.36, 1.02);
+  background-size: 113%;
+  background-position-x: -10px;
 }
