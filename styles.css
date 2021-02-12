@@ -50,6 +50,7 @@ li:hover {
   margin-top: 65px;
   font-size: 26px;
   margin-bottom: 18px;
+  margin-left: -27px;
 }
 
 .resources {
@@ -57,7 +58,7 @@ li:hover {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 .resource {
@@ -79,6 +80,13 @@ li:hover {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(weightlifting.jpg);
   background-size: 107%;
+  transition: all 550ms cubic-bezier(0.65, 0.02, 0.36, 1.02);
+}
+
+.three {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(yoga.jpg);
+  background-size: 166%;
   transition: all 550ms cubic-bezier(0.65, 0.02, 0.36, 1.02);
 }
 
@@ -111,4 +119,23 @@ li:hover {
   transition: all 550ms cubic-bezier(0.65, 0.02, 0.36, 1.02);
   background-size: 113%;
   background-position-x: -10px;
+}
+
+.three:hover {
+  transition: all 550ms cubic-bezier(0.65, 0.02, 0.36, 1.02);
+  background-size: 180%;
+  background-position-x: -10px;
+}
+
+.whyjoinus {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 22px;
+}
+
+.explanation {
+  font-weight: 400;
+  text-align: center;
+  padding: 0% 26%;
+  margin-top: -1px;
 }
