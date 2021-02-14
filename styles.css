@@ -4,6 +4,10 @@ body {
   font-weight: 200;
 }
 
+* {
+  font-weight: 200;
+}
+
 .navbar {
   display: flex;
   justify-content: space-around;
@@ -37,7 +41,7 @@ li:hover {
 .mainheading {
   color: white;
   font-size: 28px;
-  font-weight: 500;
+  font-weight: 200;
 }
 .logo {
   width: 125px;
@@ -51,6 +55,7 @@ li:hover {
   font-size: 26px;
   margin-bottom: 18px;
   margin-left: -27px;
+  font-weight: 300;
 }
 
 .resources {
@@ -130,13 +135,14 @@ li:hover {
 .whyjoinus {
   text-align: center;
   margin-top: 50px;
-  font-size: 22px;
+  font-size: 26px;
+  font-weight: 300;
 }
 
 .explanation {
-  font-weight: 400;
+  font-weight: 100;
   text-align: center;
-  padding: 0% 21%;
+  padding: 0% 29%;
   margin-top: -1px;
   padding-bottom: 30px;
   line-height: 24px;
@@ -144,20 +150,32 @@ li:hover {
 
 .thirdsection {
   background: #181818;
-  padding: 30px 14px;
+  padding: 50px 14px;
   color: white;
-  margin-right: 571px;
 }
 
 .fourthsection {
-  background: #181818;
-  color: white;
-  margin-top: 85px;
-  margin-bottom: 40px;
+  color: black;
+  margin-top: 16px;
+  margin-bottom: 140px;
   padding: 30px 14px;
-  margin-left: 457px;
+  height: 212px;
 }
 
 .perks {
   display: flex;
+  justify-content: space-evenly;
+}
+
+.perksstatement {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.fa,
+.fas {
+  font-weight: 900;
+  font-size: 30px;
 }
