@@ -13,7 +13,7 @@ body {
   justify-content: space-around;
   align-items: center;
   font-size: 16.5px;
-  padding-top: 36px;
+  padding-top: 6px;
   margin-right: 198px;
 }
 li {
@@ -157,9 +157,9 @@ li:hover {
 .fourthsection {
   color: black;
   margin-top: 16px;
-  margin-bottom: 140px;
-  padding: 30px 14px;
-  height: 212px;
+  margin-bottom: 70px;
+  padding: 30px 80px;
+  height: auto;
 }
 
 .perks {
@@ -176,6 +176,36 @@ li:hover {
 
 .fa,
 .fas {
-  font-weight: 900;
-  font-size: 30px;
+  font-size: 55px;
+  color: #333333;
+  margin-top: 27px;
+}
+
+.individualPerks {
+  text-align: center;
+  flex: 1;
+  padding: 0px 30px;
+}
+
+.individualPerks h4 {
+  font-weight: 300;
+}
+hr {
+  background: #181818;
+  width: 160px;
+}
+
+footer {
+  background: #181818;
+  height: 120px;
+  text-align: center;
+}
+
+footer img {
+  width: 30px;
+}
+
+footer img {
+  width: 87px;
+  margin-top: 16px;
 }
