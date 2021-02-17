@@ -294,3 +294,29 @@ a {
     padding: 0% 20%;
   }
 }
+
+.packagestext {
+  text-align: center;
+  font-weight: 300;
+  font-size: 25px;
+  margin-top: 35px;
+}
+
+.packages {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.packagessection {
+  margin-bottom: 192px;
+}
+
+.package {
+  width: 150px;
+  text-align: center;
+}
+
+.packageimages {
+  width: inherit;
+}
