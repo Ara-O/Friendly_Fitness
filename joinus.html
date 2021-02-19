@@ -55,56 +55,100 @@
       <h3 class="packagestext">Our Packages</h3>
       <br />
       <main class="packages">
-        <div class="packagetwo package">
+        <div class="package">
           <img
             src="Images/kettlebellrank.png"
             alt="kettlebell"
-            class="packageimages"
+            class="packageimages kettlebell"
           />
+          <h3 class="perksnames">Kettlebell Rank - Free</h3>
+          <hr />
+          <h4>Perks</h4>
+          <h5 class="perk">- Free Group weightlifting sessions</h5>
+          <h5 class="perk">- Free Cardio and Yoga group sessions</h5>
+          <h5 class="perk">- Free Group weightlifting sessions</h5>
+          <h5 class="perk">- Free Cardio and Yoga group sessions</h5>
         </div>
-        <div class="packageone package">
+        <div class="package">
           <img
             src="Images/dumbbellrank.png"
             class="packageimages"
             alt="Dumbbell"
           />
+          <h3 class="perksnames">Dumbbell Rank - $15 a month</h3>
+          <hr />
+          <h4>Perks</h4>
+          <h5 class="perk">- Free Group weightlifting sessions</h5>
+          <h5 class="perk">- Free Cardio and Yoga group sessions</h5>
+          <h5 class="perk">- Free Group weightlifting sessions</h5>
+          <h5 class="perk">- Free Cardio and Yoga group sessions</h5>
         </div>
-        <div class="packagethree package">
+        <div class="package">
           <img
             src="Images/barbellrank.png"
             alt="Barbell"
             class="packageimages"
           />
+          <h3 class="perksnames">Barbell Rank - $50 a month</h3>
+
+          <hr />
+          <h4>Perks</h4>
+          <h5 class="perk">- Free Group weightlifting sessions</h5>
+          <h5 class="perk">- Free Cardio and Yoga group sessions</h5>
+          <h5 class="perk">- Free Group weightlifting sessions</h5>
+          <h5 class="perk">- Free Cardio and Yoga group sessions</h5>
         </div>
       </main>
     </section>
-    <!-- <section>
+
+    <section class="formsection">
+      <h2 class="joinustext">Join Us</h2>
+      <div class="form">
         <form>
-          <label for="fullname">
-            <input type="text" id="fullname" placeholder="Full Name" />
-          </label>
-          <label for="number">
-            <input type="number" id="number" placeholder="Phone Number" />
-          </label>
-          <label for="location">
-            <select name="location" id="location">
-              <option value="">Lol</option>
-              <option value="">lolol</option>
-            </select>
-          </label>
-          <label for="services">
-            <select name="services" id="services">
-              <option value="">Weightlifting session</option>
-            </select>
-          </label>
-          <label for="">
-            <input type="text" id="" placeholder="" />
-          </label>
-          <label for="">
-            <input type="text" id="" placeholder="" />
-          </label>
-        </form>
-      </section> -->
+          <!-- first row -->
+          <div class="firstrow">
+            <label for="firstname">
+              <h5>First name</h5>
+              <input type="text" name="firstname" id="firstname" />
+            </label>
+            <label for="lastname">
+              <h5>Last name</h5>
+              <input type="text" name="lastname" id="lastname" />
+            </label>
+          </div>
+
+          <!-- second row -->
+          <div class="secondrow">
+            <label for="email">
+              <h5>Email</h5>
+              <input type="email" name="email" id="email" />
+            </label>
+
+            <!-- third row -->
+            <label for="viewchoice" class="view">
+              <h5>View Choice:</h5>
+              <select name="choice" id="perkchoice">
+                <option value="Henlo" selected disabled>Choose your levels</option>
+                  <option value="">Kettle-bell rank</option>
+                  <option value="">Dumbbell rank</option>
+                  <option value="">Barbell rank</option>
+              </select>     
+            </label>
+          </div>
+
+          <!-- last row -->
+          <div class="lastrow">
+            <label for="number" class="number">
+              <h5>Number</h5>
+              <input type="tel" name="number" id="number" />
+            </label>
+         
+            <label for="extrainfo" class="extra">
+              <h5>Extra info</h5>
+              <input type="text" name="name" id="extrainfo" />
+            </label>
+          </div>
+    </section>
     <script src="script.js"></script>
   </body>
 </html>

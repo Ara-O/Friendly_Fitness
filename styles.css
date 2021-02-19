@@ -306,17 +306,115 @@ a {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .packagessection {
-  margin-bottom: 192px;
+  margin-bottom: 60px;
 }
 
 .package {
-  width: 150px;
+  width: 285px;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .packageimages {
-  width: inherit;
+  width: 95px;
+}
+
+.kettlebell {
+  width: 67px;
+}
+
+.perksnames {
+  font-weight: 300;
+}
+
+.perksnames ~ h4 {
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.perk {
+  font-size: 15px;
+}
+
+.joinustext {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.reservetext {
+  text-align: center;
+  padding-top: 55px;
+}
+
+.reservetextline {
+  width: 183px;
+  margin-left: 44%;
+}
+
+.firstrow input,
+.secondrow input,
+.lastrow input {
+  width: 400px;
+  height: 50px;
+  text-align: center;
+}
+
+.firstrow,
+.secondrow,
+.lastrow {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1.5%;
+  flex-wrap: wrap;
+}
+
+.lastrow {
+  padding-bottom: 60px;
+}
+
+form h5 {
+  font-size: 16.5px;
+}
+
+select#perkchoice {
+  height: 48px;
+  text-align: center;
+  font-family: "Poppins";
+  width: 336px;
+  padding-left: 25%;
+  margin-right: 61px;
+}
+
+select {
+  text-align: center;
+}
+
+.arrangebutton3 {
+  margin-left: 242px;
+}
+
+.reservationcta:hover {
+  background: rgb(252, 252, 252);
+}
+
+.reservationcta {
+  background: white;
+  padding: 14px 23px;
+  border: solid 1px;
+}
+
+form {
+  padding-bottom: 19px;
+}
+
+.formsection {
+  background: #181818;
+  color: white;
+  padding-top: 45px;
+  font-family: "Poppins";
 }
