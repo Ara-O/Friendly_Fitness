@@ -385,31 +385,17 @@ select#perkchoice {
   height: 48px;
   text-align: center;
   font-family: "Poppins";
-  width: 336px;
+  width: 411px;
   padding-left: 25%;
-  margin-right: 61px;
+  margin-right: 0px;
 }
 
 select {
   text-align: center;
 }
 
-.arrangebutton3 {
-  margin-left: 242px;
-}
-
-.reservationcta:hover {
-  background: rgb(252, 252, 252);
-}
-
-.reservationcta {
-  background: white;
-  padding: 14px 23px;
-  border: solid 1px;
-}
-
 form {
-  padding-bottom: 19px;
+  padding-bottom: 50px;
 }
 
 .formsection {
@@ -417,4 +403,15 @@ form {
   color: white;
   padding-top: 45px;
   font-family: "Poppins";
+  text-align: center;
+}
+
+.ctabuttonel {
+  padding: 13px 39px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 15px;
+  background: white;
+  border: solid 1px black;
+  box-shadow: -2px 2px black;
 }
