@@ -415,3 +415,69 @@ form {
   border: solid 1px black;
   box-shadow: -2px 2px black;
 }
+
+.teamstext {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 51px;
+  font-weight: 300;
+  margin-bottom: 60px;
+}
+
+.centerthemes {
+  position: relative;
+  width: 100%;
+}
+
+.firsttheme {
+  position: absolute;
+  width: 100%;
+  justify-content: center;
+}
+
+.secondtheme {
+  width: 100%;
+  justify-content: center;
+}
+
+.thirdtheme {
+  position: absolute;
+}
+
+.teammemberimage {
+  width: 240px;
+}
+
+.backarrow0,
+.backarrow1,
+.backarrow2 {
+  position: absolute;
+  left: 67px;
+  top: 68px;
+  font-size: 34px;
+  color: #474747;
+  cursor: pointer;
+}
+
+.frontarrow0,
+.frontarrow1,
+.frontarrow2 {
+  position: absolute;
+  right: 67px;
+  top: 68px;
+  font-size: 34px;
+  cursor: pointer;
+}
+
+.centerthemes h4 {
+  width: 441px;
+  padding-left: 60px;
+}
+
+html {
+  height: 1115px;
+}
+
+.flex {
+  display: flex;
+}
