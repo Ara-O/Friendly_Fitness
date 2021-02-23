@@ -442,6 +442,8 @@ form {
 
 .thirdtheme {
   position: absolute;
+  width: 100%;
+  justify-content: center;
 }
 
 .teammemberimage {
@@ -455,7 +457,7 @@ form {
   left: 67px;
   top: 68px;
   font-size: 34px;
-  color: #474747;
+  color: black;
   cursor: pointer;
 }
 
@@ -480,4 +482,5 @@ html {
 
 .flex {
   display: flex;
+  flex-wrap: wrap;
 }
