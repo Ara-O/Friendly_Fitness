@@ -51,9 +51,24 @@
       </section>
       <br />
     </div>
+    <!-- Our mission -->
+    <section class="ourmissiontext">
+      <h3>Our mission</h3>
+      <br />
+      <h4>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quo
+        veniam cumque at, earum delectus sit beatae rerum asperiores corporis!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+        neque facere totam, aliquid natus ut non blanditiis dolor pariatur
+        veniam hic, maxime laudantium itaque accusamus in, sequi sit sapiente
+        aperiam tempore asperiores similique dignissimos laborum explicabo
+        veritatis? Ullam, cupiditate provident.
+      </h4>
+    </section>
     <!-- Carousel of team and their comments -->
-    <section>
+    <section class="carouselsection">
       <h3 class="teamstext">Our Founders</h3>
+
       <div class="centerthemes">
         <!-- displayflex side to side -->
         <div class="firsttheme flex">
@@ -81,7 +96,13 @@
             alt="person two"
             class="teammemberimage"
           />
-          <h4>lore</h4>
+          <h4>
+            ratione inventore illo, cum esse harum neque deserunt optio corrupti
+            est eos maxime tenetur ducimus dolore tempore ad aliquam. Iure,
+            deserunt. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Modi iste dignissimos tenetur, magnam fuga recusandae nam ipsum
+            tempora corrupti ab nihil illum quaerat repudiandae natus numquam
+          </h4>
           <p class="frontarrow1">&#10097;</p>
         </div>
 
@@ -92,12 +113,89 @@
             alt="person three"
             class="teammemberimage"
           />
-          <h4>hhhooba hooba</h4>
+          <h4>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, cum?
+            ratione inventore illo, cum esse harum neque deserunt optio corrupti
+            est eos maxime tenetur ducimus dolore tempore ad aliquam. Iure,
+            deserunt. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Modi iste dignissimos tenetur, magnam fuga recusandae nam ipsum
+            tempora corrupti ab nihil illum quaerat repudiandae natus numquam
+          </h4>
           <p class="frontarrow2">&#10097;</p>
         </div>
       </div>
     </section>
-
+    <footer class="downfooter">
+      <a href="#topdiv"><img src="Images/gymlogo.png" alt="" /></a>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
+
+<script>
+  const backButton1 = document.querySelector(`.backarrow0`);
+  const backButton2 = document.querySelector(`.backarrow1`);
+  const backButton3 = document.querySelector(`.backarrow2`);
+  const frontButton1 = document.querySelector(`.frontarrow0`);
+  const frontButton2 = document.querySelector(`.frontarrow1`);
+  const frontButton3 = document.querySelector(`.frontarrow2`);
+
+  function toggleChanges(currentComment, nextComment) {
+    currentComment.classList.remove("flex");
+    currentComment.classList.add("hidden");
+    nextComment.classList.remove("hidden");
+    nextComment.classList.add("flex");
+  }
+
+  function detoggleChanges(currentComment, backComment) {
+    currentComment.classList.add("hidden");
+    currentComment.classList.remove("flex");
+    backComment.classList.remove("hidden");
+    backComment.classList.add("flex");
+  }
+
+  frontButton1.addEventListener("click", function () {
+    toggleChanges(comments0, comments1);
+    currentComment++;
+    currentButton++;
+  });
+
+  frontButton2.addEventListener("click", function () {
+    toggleChanges(comments1, comments2);
+    frontButton3.style.color = "gray";
+    currentComment++;
+    currentButton++;
+  });
+
+  backButton2.addEventListener("click", function () {
+    detoggleChanges(comments1, comments0);
+  });
+
+  backButton3.addEventListener("click", function () {
+    detoggleChanges(comments2, comments1);
+  });
+
+  if (currentComment === 0) {
+    backButton1.style.color = "gray";
+  }
+</script>
+
+<style>
+  .flex {
+    padding-bottom: 55px;
+  }
+
+  .downfooter {
+    margin-top: 382px;
+  }
+
+  @media (max-width: 778px) {
+    .downfooter {
+      margin-top: 594px;
+    }
+
+    .secondtheme {
+      margin-bottom: -582px;
+    }
+  }
+</style>
